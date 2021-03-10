@@ -1,0 +1,48 @@
+
+.nav-img{
+    width: 150px;
+}
+.nav-hover{
+    color: red;
+}
+.covid-div{
+    width: 160px;
+    background-color: red;
+}
+.footer{
+    background-color: #212121;
+    max-width: 100%;
+    color: white;
+}
+.f-items h4{
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+} 
+.f-items{
+    margin-top: 60px;
+    margin-right: 95px;
+    border-top:3px solid red;
+    position: relative;
+}
+.f-items:after {
+    padding:0;margin:0;display:block;
+    content: "";
+    width:65%;
+    height:3px;
+    background-color:lightgray;
+    position: absolute;
+    right:0;
+    top:-3px;
+  }
+.deco{
+    text-decoration: none;
+    color: white;
+}
+.deco h6{
+    font-size: 15px;
+    font-weight: 100;
+}
+.deco:hover{
+    color: red;
+}
